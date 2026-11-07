@@ -136,7 +136,7 @@
     .timeline .meta { font-size: .87rem; color: var(--muted); margin-bottom: .4rem; }
     .timeline p { color: var(--muted); }
 
-    /* Reflections */
+    /* Reflections
     details.reflection { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 1rem; }
     details.reflection summary {
       cursor: pointer; padding: 1.2rem 1.5rem; font-weight: 600; list-style: none;
@@ -148,6 +148,7 @@
     details.reflection summary small { color: var(--muted); font-weight: 400; display: block; font-size: .85rem; }
     .reflection-body { padding: 0 1.5rem 1.4rem; color: var(--muted); }
     .reflection-body h4 { color: var(--text); font-size: .95rem; margin: 1rem 0 .2rem; }
+    */
 
     /* Goals */
     .goal-num { font-family: "JetBrains Mono", monospace; color: var(--accent); font-size: .85rem; margin-bottom: .4rem; }
@@ -187,7 +188,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#industry">Industry</a></li>
-        <li><a href="#reflections">Reflections</a></li>
+        <!-- <li><a href="#reflections">Reflections</a></li> -->
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -200,8 +201,8 @@
       <div class="container">
         <div>
           <div class="status">Seeking a work placement · June 2027</div>
-          <p class="eyebrow mono">// Immersive Software Engineering · Year 1</p>
-          <h1>Hi, I'm Jenna.<br>I build a little of everything.</h1>
+          <p class="eyebrow mono">// Immersive Software Engineering · 1st Year Undergrad</p>
+          <h1>Hi, I'm Jenna.<br>Nice to meet you.</h1>
           <p class="lead">I enjoy taking large problems and creating simple, user-friendly solutions. I have a keen interest UI/UX and making technology as accessible as possible.</p>
           <div class="buttons">
             <a class="btn primary" href="cv.pdf" target="_blank">
@@ -258,13 +259,13 @@
         <div class="section-head">
           <p class="mono">02 / Skills</p>
           <h2>What I can bring to a team</h2>
-          <p>Only list skills you can talk about in an interview. It's fine to mark some as "learning".</p>
+        </p>Here are my current skills.</p>
         </div>
         <div class="grid-3">
           <div class="card">
             <h3>Languages</h3>
             <div class="tags">
-              <span class="tag">Python</span><span class="tag">Java</span><span class="tag"></span>
+              <span class="tag">Python</span><span class="tag">Java</span>
               <span class="tag grey">HTML — learning</span>
             </div>
           </div>
@@ -291,7 +292,7 @@
         <div class="section-head">
           <p class="mono">03 / Projects</p>
           <h2>Things I've built</h2>
-          <p>College projects, personal projects and hackathon builds. Each one links to the code on GitHub.</p>
+          <p>Here are some of my previous projects, feel free to click the link to the github repo.</p>
         </div>
         <div class="grid-2">
 
@@ -331,7 +332,7 @@
               <dt>My role</dt><dd>Wrote the unit tests, end-to-end BDD tests and integration tests to enforce PR protection, chose appropriate development methodologies, wrote ADRs when switching from static deployment -> dynamic server side rendering, wrote liveness health probes for my site, deployed site as a docker image and used Amazon ECS and wrote blog pages.</dd>
               <dt>What I learned</dt><dd>Version control using GitHub, npm, Node.js, use of Docker images, AWS Services: (S3, ECR, ECS, Cloud Formation, Cloudwatch, EC2, Cloudfront) and SLI/SLO fundamentals</dd>
             </dl>
-            <div class="tags"><span class="tag grey">Tech</span></div>
+            <div class="tags"><span class="tag grey">Eslint</span><span class="tag grey">Playwright &amp; Cucumber</span><span class="tag grey">GitHub Actions</span><span class="tag grey">VS Code</span><span class="tag grey">Docker</span><span class="tag grey">Node.js</span><span class="tag grey">AWS</span></div>
             <div class="links"><a href="https://github.com/mcardlejenna4-cmd/my-astro-project" target="_blank">Code →</a></div>
           </article>
 
@@ -345,7 +346,7 @@
         <div class="section-head">
           <p class="mono">04 / Experience</p>
           <h2>Experience &amp; extra-curriculars</h2>
-          <p>Part-time jobs, volunteering, clubs, sport and leadership all count. Focus on the skills each one gave you.</p>
+          <p>Here are just a few of the part time jobs I've had, clubs I'm a part of and extra-curriculars I've been involved in.</p>
         </div>
         <ul class="timeline">
           <!-- Copy a whole <li> block to add another entry. Newest at the top. -->
@@ -374,7 +375,7 @@
         <div class="section-head">
           <p class="mono">05 / Industry engagement</p>
           <h2>Learning from industry</h2>
-          <p>Talks, company visits, careers fairs, hackathons, meetups and online courses I've taken part in.</p>
+          <p>Here are some talks and online courses I've taken part in.</p>
         </div>
         <div class="grid-3">
           <!-- Copy an <article> to add another event -->
@@ -398,7 +399,7 @@
     </section>
 
     <!-- ===================== REFLECTIONS — "reflective practice" — EDIT ===================== -->
-    <section class="block" id="reflections">
+    <!-- <section class="block" id="reflections">
       <div class="container">
         <div class="section-head">
           <p class="mono">06 / Reflections</p>
@@ -406,7 +407,7 @@
           <p>Regular reflections on what I've experienced, what it meant, and what I'll do next.</p>
         </div>
 
-        <!-- Copy a whole <details> block to add a reflection. Newest at the top. -->
+        <!-- Copy a whole <details> block to add a reflection. Newest at the top. --!>
         <details class="reflection" open>
           <summary>[Title, e.g. "My first team project"]<small>[Month Year]</small></summary>
           <div class="reflection-body">
@@ -447,9 +448,9 @@
           <h2>Looking ahead to my placement</h2>
         </div>
         <div class="grid-3">
-          <div class="card"><p class="goal-num">GOAL 01</p><h3>[Technical goal]</h3><p>[e.g. Contribute code to a real production codebase and learn professional code review.]</p></div>
-          <div class="card"><p class="goal-num">GOAL 02</p><h3>[Professional goal]</h3><p>[e.g. Get comfortable presenting my work in stand-ups and demos.]</p></div>
-          <div class="card"><p class="goal-num">GOAL 03</p><h3>[Learning goal]</h3><p>[e.g. Finish a personal project in a new language before June.]</p></div>
+          <div class="card"><p class="goal-num">GOAL 01</p><h3>Be part of a real team</h3><p>Contribute code to a real production codebase and learn professional code review.</p></div>
+          <div class="card"><p class="goal-num">GOAL 02</p><h3>Explore new areas</h3><p> time with front-end, back-end or security teams to find out where my strengths lie.</p></div>
+          <div class="card"><p class="goal-num">GOAL 03</p><h3>Learn C</h3><p> Finish a personal project in C before 2027.</p></div>
         </div>
       </div>
     </section>
